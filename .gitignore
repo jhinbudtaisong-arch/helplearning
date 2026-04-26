@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build/
+desktop-dist/
+__pycache__/
+*.log
+*.err.log

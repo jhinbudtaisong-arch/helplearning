@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": "demo-admin",
+      "name": "Admin",
+      "email": "admin@catstudy.app",
+      "loginId": "admin",
+      "password": "1234",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "f96dc929-adc7-418b-b668-f3d72c9b6461",
+      "name": "Test User",
+      "email": "tester-1777034131848@catstudy.app",
+      "loginId": "tester-1777034131848@catstudy.app",
+      "password": "secret123",
+      "createdAt": "2026-04-24T12:35:32.193Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "05478070-53ce-4eef-bd60-58385488c1f7",
+      "userId": "f96dc929-adc7-418b-b668-f3d72c9b6461",
+      "createdAt": "2026-04-24T12:35:32.213Z"
+    },
+    {
+      "token": "77ff0bb2-0ca5-49e3-a863-c2ed1b3ece0e",
+      "userId": "demo-admin",
+      "createdAt": "2026-04-24T12:48:28.730Z"
+    },
+    {
+      "token": "e8885188-09da-476c-9b4c-0a75f31e0f77",
+      "userId": "demo-admin",
+      "createdAt": "2026-04-25T04:19:48.511Z"
+    }
+  ],
+  "verification": {}
+}

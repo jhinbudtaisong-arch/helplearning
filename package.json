@@ -1,0 +1,28 @@
+{
+  "name": "cat-study-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:client": "vite",
+    "dev:server": "node cat_study_server.mjs",
+    "build": "vite build",
+    "desktop": "python desktop_launcher.py",
+    "desktop:dev": "concurrently -k \"npm:dev:client -- --host 127.0.0.1 --port 5173\" \"python desktop_launcher.py --dev\"",
+    "desktop:build": "python build_desktop.py",
+    "preview": "vite preview",
+    "start:server": "node cat_study_server.mjs"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^9.2.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.4",
+    "vite": "^8.0.10"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
